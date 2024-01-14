@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="ebankingDemo_actual">
+ <test name="Banking app test">
+     
+     <parameter name="browser" value="chrome"/>
+     <classes>
+       <class name="TC_001_loginTest"/>
+     </classes>
+ </test>
+</suite>
